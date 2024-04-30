@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "purecoppertools:items/copper_axe"
+    "layer0": "purecoppertools:item/copper_axe"
   }
 }

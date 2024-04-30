@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
   "id": "purecoppertools",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Pure Copper Tools",
   "description": "A unique take on copper armor and tools, that just may fit your vibe.",
   "authors": [
     "purejosh"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/pure-copper-tools-fabric-forge",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/purecopper",
     "sources": ""
   },
   "license": "Custom license",
   "icon": "assets/purecoppertools/icon.png",
-  "accessWidener": "purecoppertools.accesswidener",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -24,9 +23,9 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.9",
+    "fabricloader": ">=0.14.21",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": "~1.20",
     "java": ">=17"
   },
   "mixins": [

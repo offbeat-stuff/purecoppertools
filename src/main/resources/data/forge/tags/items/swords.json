@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "purecoppertools:oxidized_copper_sword",
+    "purecoppertools:weathered_copper_sword",
+    "purecoppertools:exposed_copper_sword",
+    "purecoppertools:copper_sword"
+  ]
+}

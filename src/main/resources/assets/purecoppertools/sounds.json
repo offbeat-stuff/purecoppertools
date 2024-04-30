@@ -1,0 +1,32 @@
+{
+  "equip_copper": {
+    "category": "player",
+    "subtitle": "subtitles.equip_copper",
+    "sounds": [
+      {
+        "name": "purecoppertools:equip_copper1",
+        "stream": false
+      },
+      {
+        "name": "purecoppertools:equip_copper2",
+        "stream": false
+      },
+      {
+        "name": "purecoppertools:equip_copper3",
+        "stream": false
+      },
+      {
+        "name": "purecoppertools:equip_copper4",
+        "stream": false
+      },
+      {
+        "name": "purecoppertools:equip_copper5",
+        "stream": false
+      },
+      {
+        "name": "purecoppertools:equip_copper6",
+        "stream": false
+      }
+    ]
+  }
+}

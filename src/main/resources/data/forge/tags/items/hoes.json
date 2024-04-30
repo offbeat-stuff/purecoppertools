@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "purecoppertools:exposed_copper_hoe",
+    "purecoppertools:weathered_copper_hoe",
+    "purecoppertools:oxidized_copper_hoe",
+    "purecoppertools:copper_hoe"
+  ]
+}

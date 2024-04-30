@@ -8,7 +8,9 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
+
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 public class OxidizedCopperSwordItem extends SwordItem {
 	public OxidizedCopperSwordItem() {
@@ -36,6 +38,7 @@ public class OxidizedCopperSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(PurecoppertoolsModItems.OXIDIZED_COPPER_INGOT));
 			}
-		}, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -2.4f, new Item.Properties());
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
 	}
 }

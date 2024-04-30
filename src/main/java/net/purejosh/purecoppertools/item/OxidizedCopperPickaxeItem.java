@@ -8,7 +8,9 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
+
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 public class OxidizedCopperPickaxeItem extends PickaxeItem {
 	public OxidizedCopperPickaxeItem() {
@@ -36,6 +38,7 @@ public class OxidizedCopperPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(PurecoppertoolsModItems.OXIDIZED_COPPER_INGOT));
 			}
-		}, 1, -2.7999999999999998f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -2.8f, new Item.Properties());
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(content -> content.accept(this));
 	}
 }

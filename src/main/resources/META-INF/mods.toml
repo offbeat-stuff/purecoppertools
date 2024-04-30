@@ -1,19 +1,21 @@
 modLoader="javafml"
-loaderVersion="[43,)"
+loaderVersion="[45,)"
 license="Custom license"
 
 [[mods]]
-modId="purelycoppertools"
+modId="purecoppertools"
 version="1.0.0"
-displayName="Purely Copper Tools"
+displayName="Pure Copper Tools"
 credits="Made by purejosh"
-displayURL="https://mcreator.net"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/pure-copper-tools-fabric-forge"
+logoFile="logo.png"
 authors="purejosh"
+description="A unique take on copper armor and tools, that just may fit your vibe."
 
-[[dependencies.purelycoppertools]]
+[[dependencies.purecoppertools]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.2]"
+    versionRange="[1.19.4]"
     ordering="NONE"
     side="BOTH"
 

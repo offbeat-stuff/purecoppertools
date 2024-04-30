@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "purecoppertools:exposed_copper_leggings",
+    "purecoppertools:copper_leggings",
+    "purecoppertools:oxidized_copper_leggings",
+    "purecoppertools:weathered_copper_leggings"
+  ]
+}

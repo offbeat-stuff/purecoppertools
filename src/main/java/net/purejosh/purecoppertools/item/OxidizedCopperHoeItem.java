@@ -8,7 +8,9 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
+
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 public class OxidizedCopperHoeItem extends HoeItem {
 	public OxidizedCopperHoeItem() {
@@ -36,6 +38,7 @@ public class OxidizedCopperHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(PurecoppertoolsModItems.OXIDIZED_COPPER_INGOT));
 			}
-		}, 0, -1f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, -1f, new Item.Properties());
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(content -> content.accept(this));
 	}
 }

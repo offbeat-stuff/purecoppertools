@@ -6,8 +6,10 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.AxeItem;
+
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 public class CopperAxeItem extends AxeItem {
 	public CopperAxeItem() {
@@ -35,6 +37,7 @@ public class CopperAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
 			}
-		}, 1, -3.1f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3.1f, new Item.Properties());
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(content -> content.accept(this));
 	}
 }

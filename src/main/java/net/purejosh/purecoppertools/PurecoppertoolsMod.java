@@ -15,11 +15,9 @@ package net.purejosh.purecoppertools;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.purejosh.purecoppertools.init.PurecoppertoolsModSounds;
 import net.purejosh.purecoppertools.init.PurecoppertoolsModItems;
 
-import net.minecraft.nbt.CompoundTag;
-
-import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.fabricmc.api.ModInitializer;
 
 public class PurecoppertoolsMod implements ModInitializer {
@@ -32,11 +30,7 @@ public class PurecoppertoolsMod implements ModInitializer {
 
 		PurecoppertoolsModItems.load();
 
-		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
-			if (handler.getPlayer().getExtraCustomData().getCompound("PlayerPersisted").isEmpty()) {
-				handler.getPlayer().getExtraCustomData().put("PlayerPersisted", new CompoundTag());
-			}
-			PurecoppertoolsMod.LOGGER.info(handler.getPlayer().getExtraCustomData());
-		});
+		PurecoppertoolsModSounds.load();
+
 	}
 }

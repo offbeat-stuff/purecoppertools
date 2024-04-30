@@ -25,12 +25,30 @@
       "purecoppertools:crafting_copper_pickaxe",
       "purecoppertools:crafting_copper_axe",
       "purecoppertools:crafting_copper_hoe",
-      "purecoppertools:crafting_copper_helmet",
       "purecoppertools:crafting_copper_chestplate",
-      "purecoppertools:crafting_copper_leggings",
       "purecoppertools:crafting_copper_boots",
       "purecoppertools:crafting_copper_ingot",
-      "purecoppertools:crafting_copper_nugget"
+      "purecoppertools:crafting_copper_nugget",
+      "purecoppertools:smelting_copper_sword",
+      "purecoppertools:smelting_copper_shovel",
+      "purecoppertools:smelting_copper_pickaxe",
+      "purecoppertools:smelting_copper_hoe",
+      "purecoppertools:smelting_copper_helmet",
+      "purecoppertools:smelting_copper_chestplate",
+      "purecoppertools:smelting_copper_leggings",
+      "purecoppertools:smelting_copper_boots",
+      "purecoppertools:blasting_copper_boots",
+      "purecoppertools:blasting_copper_helmet",
+      "purecoppertools:blasting_copper_leggings",
+      "purecoppertools:blasting_copper_pickaxe",
+      "purecoppertools:blasting_copper_shovel",
+      "purecoppertools:crafting_copper_helmet",
+      "purecoppertools:crafting_copper_leggings",
+      "purecoppertools:blasting_copper_axe",
+      "purecoppertools:blasting_copper_chestplate",
+      "purecoppertools:blasting_copper_hoe",
+      "purecoppertools:blasting_copper_sword",
+      "purecoppertools:smelting_copper_axe"
     ]
   }
 }

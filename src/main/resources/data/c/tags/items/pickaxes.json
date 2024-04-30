@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "purecoppertools:weathered_copper_pickaxe",
+    "purecoppertools:oxidized_copper_pickaxe",
+    "purecoppertools:exposed_copper_pickaxe",
+    "purecoppertools:copper_pickaxe"
+  ]
+}

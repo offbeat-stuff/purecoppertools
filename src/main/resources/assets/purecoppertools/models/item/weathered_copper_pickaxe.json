@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "purecoppertools:items/weathered_copper_pickaxe"
+    "layer0": "purecoppertools:item/weathered_copper_pickaxe"
   }
 }
