@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "purecoppertools:item/exposed_copper_upgrade_smithing_template"
+  }
+}

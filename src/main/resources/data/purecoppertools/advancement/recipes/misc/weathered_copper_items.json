@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_weathered_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "purecoppertools:weathered_copper_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_weathered_copper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "purecoppertools:weathered_copper",
+      "purecoppertools:weathered_copper_axe",
+      "purecoppertools:weathered_copper_boots",
+      "purecoppertools:weathered_copper_brush",
+      "purecoppertools:weathered_copper_chestplate",
+      "purecoppertools:weathered_copper_helmet",
+      "purecoppertools:weathered_copper_hoe",
+      "purecoppertools:weathered_copper_horse_armor_smithing",
+      "purecoppertools:weathered_copper_ingot_from_nuggets",
+      "purecoppertools:weathered_copper_leggings",
+      "purecoppertools:weathered_copper_nugget",
+      "purecoppertools:weathered_copper_nugget_from_blasting",
+      "purecoppertools:weathered_copper_nugget_from_smelting",
+      "purecoppertools:weathered_copper_pickaxe",
+      "purecoppertools:weathered_copper_shovel",
+      "purecoppertools:weathered_copper_sword",
+      "purecoppertools:weathered_copper_upgrade_smithing_template"
+    ]
+  }
+}

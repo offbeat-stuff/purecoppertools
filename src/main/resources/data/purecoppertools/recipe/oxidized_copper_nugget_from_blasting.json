@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": [
+    {
+      "item": "purecoppertools:oxidized_copper_shovel"
+    },
+    {
+      "item": "purecoppertools:oxidized_copper_pickaxe"
+    },
+    {
+      "item": "purecoppertools:oxidized_copper_axe"
+    },
+    {
+      "item": "purecoppertools:oxidized_copper_hoe"
+    },
+    {
+      "item": "purecoppertools:oxidized_copper_sword"
+    },
+    {
+      "item": "purecoppertools:oxidized_copper_helmet"
+    },
+    {
+      "item": "purecoppertools:oxidized_copper_chestplate"
+    },
+    {
+      "item": "purecoppertools:oxidized_copper_leggings"
+    },
+    {
+      "item": "purecoppertools:oxidized_copper_boots"
+    },
+    {
+      "item": "purecoppertools:oxidized_copper_horse_armor"
+    }
+  ],
+  "result": {
+    "id": "purecoppertools:oxidized_copper_nugget"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

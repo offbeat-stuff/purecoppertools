@@ -1,0 +1,12 @@
+{
+  "values": [
+    "purecoppertools:copper_pickaxe",
+    "purecoppertools:exposed_copper_pickaxe",
+    "purecoppertools:weathered_copper_pickaxe",
+    "purecoppertools:oxidized_copper_pickaxe",
+    {
+      "id": "#c:tools/mining_tools",
+      "required": false
+    }
+  ]
+}

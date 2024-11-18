@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    {
+      "item": "purecoppertools:copper_shovel"
+    },
+    {
+      "item": "purecoppertools:copper_pickaxe"
+    },
+    {
+      "item": "purecoppertools:copper_axe"
+    },
+    {
+      "item": "purecoppertools:copper_hoe"
+    },
+    {
+      "item": "purecoppertools:copper_sword"
+    },
+    {
+      "item": "purecoppertools:copper_helmet"
+    },
+    {
+      "item": "purecoppertools:copper_chestplate"
+    },
+    {
+      "item": "purecoppertools:copper_leggings"
+    },
+    {
+      "item": "purecoppertools:copper_boots"
+    },
+    {
+      "item": "purecoppertools:copper_horse_armor"
+    }
+  ],
+  "result": {
+    "id": "purecoppertools:copper_nugget"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_exposed_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:exposed_copper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_exposed_copper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "purecoppertools:exposed_copper_ingot_from_exposed_copper"
+    ]
+  }
+}

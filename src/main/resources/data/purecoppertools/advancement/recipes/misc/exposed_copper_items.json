@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_exposed_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "purecoppertools:exposed_copper_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_exposed_copper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "purecoppertools:exposed_copper",
+      "purecoppertools:exposed_copper_axe",
+      "purecoppertools:exposed_copper_boots",
+      "purecoppertools:exposed_copper_brush",
+      "purecoppertools:exposed_copper_chestplate",
+      "purecoppertools:exposed_copper_helmet",
+      "purecoppertools:exposed_copper_hoe",
+      "purecoppertools:exposed_copper_horse_armor_smithing",
+      "purecoppertools:exposed_copper_ingot_from_nuggets",
+      "purecoppertools:exposed_copper_leggings",
+      "purecoppertools:exposed_copper_nugget",
+      "purecoppertools:exposed_copper_nugget_from_blasting",
+      "purecoppertools:exposed_copper_nugget_from_smelting",
+      "purecoppertools:exposed_copper_pickaxe",
+      "purecoppertools:exposed_copper_shovel",
+      "purecoppertools:exposed_copper_sword",
+      "purecoppertools:exposed_copper_upgrade_smithing_template"
+    ]
+  }
+}

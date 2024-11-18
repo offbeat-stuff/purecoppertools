@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "purecoppertools:exposed_copper_axe",
-    "purecoppertools:weathered_copper_axe",
-    "purecoppertools:oxidized_copper_axe",
-    "purecoppertools:copper_axe"
-  ]
-}

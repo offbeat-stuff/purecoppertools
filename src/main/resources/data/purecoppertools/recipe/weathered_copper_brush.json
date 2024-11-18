@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "purecoppertools:weathered_copper_ingot"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:feather"
+    }
+  },
+  "pattern": [
+    "X",
+    "#",
+    "I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "purecoppertools:weathered_copper_brush"
+  }
+}

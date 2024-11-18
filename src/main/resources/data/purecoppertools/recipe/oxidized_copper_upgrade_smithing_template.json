@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#S#",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "purecoppertools:oxidized_copper_ingot"
+    },
+    "S": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "id": "purecoppertools:oxidized_copper_upgrade_smithing_template",
+    "count": 1
+  }
+}

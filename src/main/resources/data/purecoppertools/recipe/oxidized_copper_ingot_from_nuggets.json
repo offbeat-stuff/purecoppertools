@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "oxidized_copper_ingot",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "purecoppertools:oxidized_copper_nugget"
+		}
+	},
+	"result": {
+		"id": "purecoppertools:oxidized_copper_ingot",
+		"count": 1
+	}
+}

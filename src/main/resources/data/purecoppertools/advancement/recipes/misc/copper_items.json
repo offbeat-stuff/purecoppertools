@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_copper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "purecoppertools:copper_axe",
+      "purecoppertools:copper_boots",
+      "purecoppertools:copper_chestplate",
+      "purecoppertools:copper_helmet",
+      "purecoppertools:copper_hoe",
+      "purecoppertools:copper_horse_armor_smithing",
+      "purecoppertools:copper_ingot_from_nuggets",
+      "purecoppertools:copper_leggings",
+      "purecoppertools:copper_nugget",
+      "purecoppertools:copper_nugget_from_blasting",
+      "purecoppertools:copper_nugget_from_smelting",
+      "purecoppertools:copper_pickaxe",
+      "purecoppertools:copper_shovel",
+      "purecoppertools:copper_sword",
+      "purecoppertools:copper_upgrade_smithing_template"
+    ]
+  }
+}

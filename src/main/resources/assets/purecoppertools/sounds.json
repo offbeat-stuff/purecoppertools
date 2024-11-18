@@ -1,32 +1,46 @@
 {
-  "equip_copper": {
-    "category": "player",
-    "subtitle": "subtitles.equip_copper",
+  "item.armor.equip_copper": {
     "sounds": [
-      {
-        "name": "purecoppertools:equip_copper1",
-        "stream": false
-      },
-      {
-        "name": "purecoppertools:equip_copper2",
-        "stream": false
-      },
-      {
-        "name": "purecoppertools:equip_copper3",
-        "stream": false
-      },
-      {
-        "name": "purecoppertools:equip_copper4",
-        "stream": false
-      },
-      {
-        "name": "purecoppertools:equip_copper5",
-        "stream": false
-      },
-      {
-        "name": "purecoppertools:equip_copper6",
-        "stream": false
-      }
-    ]
+      "item/armor/equip_iron1",
+      "item/armor/equip_iron2",
+      "item/armor/equip_iron3",
+      "item/armor/equip_iron4",
+      "item/armor/equip_iron5",
+      "item/armor/equip_iron6"
+    ],
+    "subtitle": "subtitles.item.armor.equip_copper"
+  },
+  "item.armor.equip_exposed_copper": {
+    "sounds": [
+      "item/armor/equip_iron1",
+      "item/armor/equip_iron2",
+      "item/armor/equip_iron3",
+      "item/armor/equip_iron4",
+      "item/armor/equip_iron5",
+      "item/armor/equip_iron6"
+    ],
+    "subtitle": "subtitles.item.armor.equip_exposed_copper"
+  },
+  "item.armor.equip_weathered_copper": {
+    "sounds": [
+      "item/armor/equip_iron1",
+      "item/armor/equip_iron2",
+      "item/armor/equip_iron3",
+      "item/armor/equip_iron4",
+      "item/armor/equip_iron5",
+      "item/armor/equip_iron6"
+    ],
+    "subtitle": "subtitles.item.armor.equip_weathered_copper"
+  },
+  "item.armor.equip_oxidized_copper": {
+    "sounds": [
+      "item/armor/equip_iron1",
+      "item/armor/equip_iron2",
+      "item/armor/equip_iron3",
+      "item/armor/equip_iron4",
+      "item/armor/equip_iron5",
+      "item/armor/equip_iron6"
+    ],
+    "subtitle": "subtitles.item.armor.equip_oxidized_copper"
   }
 }

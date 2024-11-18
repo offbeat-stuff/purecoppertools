@@ -1,0 +1,16 @@
+{
+  "values": [
+    "purecoppertools:copper_sword",
+    "purecoppertools:copper_axe",
+    "purecoppertools:exposed_copper_sword",
+    "purecoppertools:exposed_copper_axe",
+    "purecoppertools:weathered_copper_sword",
+    "purecoppertools:weathered_copper_axe",
+    "purecoppertools:oxidized_copper_sword",
+    "purecoppertools:oxidized_copper_axe",
+    {
+      "id": "#c:tools/melee_weapons",
+      "required": false
+    }
+  ]
+}

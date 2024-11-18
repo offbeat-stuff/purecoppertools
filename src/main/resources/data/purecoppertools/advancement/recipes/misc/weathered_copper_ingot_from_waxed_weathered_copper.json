@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_waxed_weathered_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_weathered_copper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_waxed_weathered_copper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "purecoppertools:weathered_copper_ingot_from_waxed_weathered_copper"
+    ]
+  }
+}

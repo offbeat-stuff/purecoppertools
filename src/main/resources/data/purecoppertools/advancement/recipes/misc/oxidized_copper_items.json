@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oxidized_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "purecoppertools:oxidized_copper_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_oxidized_copper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "purecoppertools:oxidized_copper",
+      "purecoppertools:oxidized_copper_axe",
+      "purecoppertools:oxidized_copper_boots",
+      "purecoppertools:oxidized_copper_brush",
+      "purecoppertools:oxidized_copper_chestplate",
+      "purecoppertools:oxidized_copper_helmet",
+      "purecoppertools:oxidized_copper_hoe",
+      "purecoppertools:oxidized_copper_horse_armor_smithing",
+      "purecoppertools:oxidized_copper_ingot_from_nuggets",
+      "purecoppertools:oxidized_copper_leggings",
+      "purecoppertools:oxidized_copper_nugget",
+      "purecoppertools:oxidized_copper_nugget_from_blasting",
+      "purecoppertools:oxidized_copper_nugget_from_smelting",
+      "purecoppertools:oxidized_copper_pickaxe",
+      "purecoppertools:oxidized_copper_shovel",
+      "purecoppertools:oxidized_copper_sword",
+      "purecoppertools:oxidized_copper_upgrade_smithing_template"
+    ]
+  }
+}

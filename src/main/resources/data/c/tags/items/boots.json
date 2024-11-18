@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "purecoppertools:exposed_copper_boots",
-    "purecoppertools:copper_boots",
-    "purecoppertools:oxidized_copper_boots",
-    "purecoppertools:weathered_copper_boots"
-  ]
-}
